@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MANUAL HTML Y CSS</title>
+<link rel="stylesheet" href="estilosPagina.css">
+</head>
+
+<body>
+<div id="cabecera">
+  <h1><a href="HTML.html">MANUAL HTML Y CSS</a></h1>
+</div>
+<div id="menu_horizontal">
+  <ul>
+    <li><a href="HTML.html">HTML</a></li>
+    <li><a href="CSS.html">CSS</a></li>
+  </ul>
+</div>
+<div class="indice">
+  <h2>ÍNDICE</h2>
+  <p><a href=#formato>1- Formato</a></p>
+  <p><a href=#titulos>2- Títulos</a></p>
+  <p><a href=#agrupacion>3- Agrupación</a></p>
+  <p><a href=#elementos>4- Elementos semánticos de texto</a></p>
+  <p><a href=#imagenes>5- Imágenes</a></p>
+  <p><a href=#simbolos>6- Símbolos especiales</a></p>
+  <p><a href=#tablas>7- Tablas</a></p>
+  <p><a href=#formularios>8- Formularios</a></p>
+  <p><a href=#multimedia>9- Multimedia</a></p>
+</div>
+<div class="contenedor">
+  <h3 id="formato">1- Formato</h3>
+  <li>Tipo de documento:</li>
+  <p>&lt;!doctype html&gt;</p>
+  <li>Formato de etiqueta:</li>
+  <p>&lt;elemento&gt;</p>
+  <li>Etiqueta de cierre vs. Elemento vacío:</li>
+  <p>&lt;/elemento&gt;</p>
+  <li>Atributos:</li>
+  <p>&lt;elemento atributo=“valor”&gt;&lt;/elemento&gt;</p>
+  <p>&lt;!doctype html&gt; </p>
+  <p>&lt;html lang=“es”&gt;&nbsp;Inicio </p>
+  <p>&lt;head&gt;&nbsp;Cabecera </p>
+  <p>&lt;/head&gt; </p>
+  <p>&lt;body&gt;&nbsp;Cuerpo </p>
+  <p>&lt;/body&gt;</p>
+  <p> &lt;/html&gt;    Fin</p>
+</div>
+<div class="contenedor">
+  <h3 id="titulos">2- Títulos:</h3>
+  <li>Titulo del documento:</li>
+  <p>&lt;!doctype html&gt; </p>
+  <p>&lt;html lang=“es”&gt; </p>
+  <p>&nbsp; &nbsp; &nbsp;&lt;head&gt; </p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;Mi primer documento HTML&lt;/title&gt;</p>
+  <p> &nbsp; &nbsp; &nbsp;&lt;/head&gt; </p>
+  <p>&nbsp; &nbsp; &nbsp;&lt;body&gt; </p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Este es el texto de mi primer documento. </p>
+  <p>&nbsp; &nbsp; &nbsp; &lt;/body&gt; </p>
+  <p>&lt;/html&gt;</p>
+  <li>Titulos:</li>
+  <p>&lt;h1&gt;Texto de título de primer nivel&lt;/h1&gt;</p>
+  <p> &lt;h2&gt;Texto de título de segundo nivel&lt;/h2&gt;</p>
+  <p>Hay hasta 6 clases de títulos.&nbsp;</p>
+</div>
+<div class="contenedor">
+  <h3 id="agrupacion">3- Agrupación:</h3>
+  <li>Párrafos:</li>
+  <p>&lt;p&gt;Este texto pertenece a un párrafo.&lt;/p&gt;</p>
+  <p> &lt;p&gt;Pero éste es del párrafo siguiente&lt;/p&gt; </p>
+  <li>Texto preformateado:</li>
+  <p>&lt;pre&gt; Este texto aparecerá</p>
+  <p> escrito en el navegador con este mismo formato</p>
+  <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;utilizando un tipo de letra monoespaciada. &lt;/pre&gt;</p>
+  <li>Listas:</li>
+  <p>-Elementos:</p>
+  <p> List Item: li</p>
+  <p> -Desordenadas:</p>
+  <p> Unordered List: ul </p>
+  <p>-Ordenadas:</p>
+  <p> Ordered List: ol</p>
+  <p>-Definition List: dl </p>
+  <p>&nbsp; &nbsp; &nbsp;– Definition Term: dt </p>
+  <p>&nbsp; &nbsp; &nbsp;– Definition Data: dd</p>
+  <li>Linea horizontal:</li>
+  <p>Horizontal rule: HR</p>
+  <p> &lt;p&gt;La siguiente línea horizontal divide temáticamente este párrafo del siguiente&lt;/p&gt; </p>
+  <p>&lt;hr&gt; </p>
+  <p>&lt;p&gt;Este segundo párrafo puede pertenecer, por ejemplo, a un cambio de escena dentro de un mismo capítulo de una novela.&lt;/p&gt;</p>
+  <p>&nbsp;</p>
+</div>
+<div class="contenedor">
+  <h3 id="elementos">4- Elementos semánticos de texto:</h3>
+  <li>Resaltado:</li>
+  <p><em>ITALIC: I – Bastardilla</em></p>
+  <p> &lt;p&gt;Este párrafo contiene una palabra en cursiva en su interior: la escribimos con el símbolo de &lt;i&gt;itálica&lt;/i&gt;.&lt;/p&gt;</p>
+  <p><strong>BOLD: B – Negrita</strong></p>
+  <p> &lt;p&gt;En este, sin embargo, hay una palabra que aparece en &lt;b&gt;negrita&lt;/b&gt;.&lt;/p&gt; </p>
+  <p><u>UNDERLINED: U – Subrayada</u></p>
+  <p>&lt;p&gt;Y la palabra &lt;u&gt;subrayada&lt;/u&gt; es la que podemos ver en este párrafo final.&lt;/p&gt; </p>
+  <p>STRESS EMPHASIS: EM</p>
+  <p> Pone énfasis o recalca una parte del texto </p>
+  <p>STRONG </p>
+  <p>Parte importante, seria o urgente </p>
+  <p>SMALL</p>
+  <p> Representa la “letra pequeña” (de un contrato...) </p>
+  <p>S</p>
+  <p> Representa contenido irrelevante u obsoleto </p>
+  <li>Salto de linea:</li>
+  <p> BREAK: BR</p>
+  <p> WORD BREAK: WBR </p>
+  <p>&lt;p&gt;Este párrafo continene un &lt;br&gt; salto de línea&lt;/p&gt; </p>
+  <li>Hiperenlace:</li>
+  <p>Anchor: a </p>
+  <p>Enlace a URL: href </p>
+  <p>Marca un lugar en el que podría haber un enlace si fuera relevante.</p>
+  <p> Este texto contiene un enlace a la página de &lt;a href=“http://www.google.com”&gt;Google&lt;/a&gt;</p>
+  <p><strong>Absoluto: </strong></p>
+  <p>http://sitio/pagina.html </p>
+  <p><strong> Relativo</strong><strong>:</strong>&nbsp;</p>
+  <p> Mismo directorio: pagina.html </p>
+  <p> Subdirectorio: subdirectorio/pagina.html </p>
+  <p> Directorio anterior: ../pagina.html </p>
+  <li>Hiperenlace interno:</li>
+  <p>Identificador de elemento:</p>
+  <p> &lt;elto id=eltoX&gt;Elemento X&lt;/elto&gt;</p>
+  <p>Referencia a elemento:</p>
+  <p> &lt;a href=#eltoX&gt;Elemento X&lt;/a&gt;</p>
+  <p> Principio del documento: </p>
+  <p>#top</p>
+  <li>Hiperenlace general:</li>
+  <p>Referencia desde otro documento:</p>
+  <p> Pero, por supuesto, también podría acceder a un &lt;a href=“URL#identificador”&gt;lugar&lt;/a&gt; concreto de otro documento diferente.</p>
+  <p> Debo indicar cuál es la URL del documento y concatenar a la misma el identificador de ese lugar.</p>
+</div>
+<div class="contenedor">
+  <h3 id="imagenes">5- Imágenes:</h3>
+  <li>Opciones:</li>
+  <p>Origen (SouRCe): src</p>
+  <p> Ancho: width </p>
+  <p>Alto: height </p>
+  <p>Texto alternativo (ALTernative text): alt </p>
+  <p>&lt;img src=“foto.jpg” width=200 height=150 alt=“Mi foto”&gt;</p>
+  <li>Tipos:</li>
+  <p>Bimap estáticos (con y sin pérdida) </p>
+  <p>– PNG, GIF, JPG </p>
+  <p>Documentos vectoriales </p>
+  <p>– SVG </p>
+  <p> Animados </p>
+  <p>– APNG, GIF </p>
+  <p> Otros </p>
+  <p>– PDF, MNG</p>
+  <li>Mapas:</li>
+  <p>&lt;img usemap=“#mapa”&gt;</p>
+  <p> &lt;map name=“mapa”&gt; </p>
+  <blockquote>
+    <p>&lt;area&gt;</p>
+  </blockquote>
+  <blockquote>
+    <p> – shape: default, rect, circle, poly </p>
+  </blockquote>
+  <blockquote>
+    <p>– coords: coordenadas separadas por comas </p>
+  </blockquote>
+  <blockquote>
+    <p>– href: URL asociada - nohref </p>
+  </blockquote>
+  <blockquote>
+    <p>– alt: texto alternativo (obligatorio si href) </p>
+  </blockquote>
+  <blockquote>
+    <p>– download </p>
+  </blockquote>
+  <blockquote>
+    <p>– target </p>
+  </blockquote>
+  <p><strong>Coordenadas:</strong></p>
+  <p> – rect: x-izq, y-sup, x-dcha, y-inf</p>
+  <p> – circle: x-centro, y-centro, radio </p>
+  <p>– poly: x1, y1, x2, y2,..., xN, yN</p>
+</div>
+<div class="contenedor">
+  <h3 id="simbolos">6- Símbolos especiales:</h3>
+  <li>Formato:</li>
+  <p>&amp; nombre_del_símbolo;</p>
+  <li>Espacio en blanco::</li>
+  <p>&amp; nombre_del_símbolo;</p>
+  <li>Eñe:</li>
+  <p>Non-Breaking Space: &amp;nbsp;</p>
+  <li>Acento agudo:</li>
+  <p>&amp;aacute; &amp;Aacute; &amp;eacute; ...</p>
+</div>
+<div class="contenedor">
+  <h3 id="tablas">7- Tablas:</h3>
+  <li>Tabla:</li>
+  <p>&lt;table&gt;</p>
+  <li>Fila:</li>
+  <p>&lt;tr&gt;</p>
+  <li>Columna:</li>
+  <p>&lt;td&gt;</p>
+  <li>Encabezado de tabla:</li>
+  <p>&lt;thead&gt;</p>
+  <li>Cuerpo de tabla:</li>
+  <p>&lt;tbody&gt;</p>
+  <li>Sumario de tabla:</li>
+  <p>&lt;tfoot&gt;</p>
+  <li>Leyenda:</li>
+  <p>&lt;caption&gt;</p>
+  <li>Atributos:</li>
+  <p><strong>–Borde:</strong></p>
+  <p> border (en table)</p>
+  <p> <strong>–Expansión en columna:</strong></p>
+  <p> rowspan (en td y th)</p>
+  <p><strong>–Expansión en fila:</strong></p>
+  <p>&nbsp;colspan (en td y th)</p>
+  <li>Ejemplo de tabla:</li>
+  <table width="50%" border="solid">
+    <tbody>
+      <tr>
+        <td>&nbsp;1</td>
+        <td>&nbsp;2</td>
+        <td>&nbsp;3</td>
+      </tr>
+      <tr>
+        <td>&nbsp;4</td>
+        <td>&nbsp;5</td>
+        <td>&nbsp;6</td>
+      </tr>
+      <tr>
+        <td>&nbsp;7</td>
+        <td>&nbsp;8</td>
+        <td>&nbsp;9</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="contenedor">
+  <h3 id="formularios">8- Formularios:</h3>
+  <li>Codigo de un formulario:</li>
+  <p>&lt;form action=http://somesite.com/prog/adduser method=post&gt; </p>
+  <p>&lt;p&gt;&nbsp;</p>
+  <p>&lt;label for=nombre&gt;Nombre: &lt;/label&gt;</p>
+  <p> &lt;input type=text id=nombre name=nombre&gt;&lt;br&gt; </p>
+  <p>&lt;label for=apellido&gt;Apellido: &lt;/label&gt; </p>
+  <p>&lt;input type=text id=apellido name=apellido&gt;&lt;br&gt; </p>
+  <p>&lt;label&gt;&lt;input type=email name=email&gt;E-mail: &lt;/label&gt;&lt;br&gt;</p>
+  <p> &lt;input type=radio name=sexo value=hombre&gt;hombre&lt;br&gt;</p>
+  <p> &lt;input type=radio name=sexo value=mujer&gt;mujer&lt;br&gt;</p>
+  <p> &lt;input type=submit value=Enviar&gt; &lt;input type=reset&gt;</p>
+  <p> &lt;/p&gt;</p>
+  <p>&nbsp;&lt;/form&gt;</p>
+  <li>Ejemplo de formulario:</li>
+  <form action=http://somesite.com/prog/adduser method=post>
+    <p>
+      <label for=nombre>Nombre: </label>
+      <input type=text id=nombre name=nombre>
+      <br>
+      <label for=apellido>Apellido: </label>
+      <input type=text id=apellido name=apellido>
+      <br>
+      <label> E-mail: </label>
+      <input type=email name=email>
+      <br>
+      <input type=radio name=sexo value=hombre>
+      hombre<br>
+      <input type=radio name=sexo value=mujer>
+      mujer<br>
+      <input type=submit value=Enviar>
+      <input type=reset>
+    </p>
+  </form>
+  <li>Entrada de datos:</li>
+  <p> <strong>– type:</strong></p>
+  <p>• type=password </p>
+  <p>• type=search, tel, url, email </p>
+  <p>• type=range </p>
+  <p>• type=hidden </p>
+  <p>• type=image src=nombre_imagen</p>
+  <p> • type=file accept=lista_tipos_y_MIME </p>
+  <p>• type=button </p>
+  <p>• type=reset </p>
+  <p><strong>– name </strong> </p>
+  <p><strong>– value</strong></p>
+  <p><strong>– required</strong></p>
+  <p><strong>– size (=20)</strong></p>
+  <p>&nbsp;</p>
+  <li>Botón de envío:</li>
+  <p> <strong> type=submit</strong></p>
+  <p> &lt;form id=ejemplo action=este.html&gt; </p>
+  <p>&lt;p&gt;Name: &lt;input type=text name=Nombre&gt;&lt;/p&gt; </p>
+  <p>&lt;p&gt;Email: &lt;input type=text name=Email&gt;&lt;/p&gt; </p>
+  <p>&lt;p&gt;&lt;input type=submit name=Enviar value=Enviar&gt;&lt;/p&gt; </p>
+  <p>&lt;/form&gt; </p>
+  <li>Valor numérico:</li>
+  <p>type=number </p>
+  <p>min, max </p>
+  <p>value (número real) </p>
+  <p> step (=1) </p>
+  <p>&lt;input type=number min=0 max=100 step=20 value=50 name=valor&gt;</p>
+  <li>Casilla de verificación:</li>
+  <p>type=checkbox </p>
+  <p>name </p>
+  <p>value (=on) </p>
+  <p>checked </p>
+  <p>&lt;input type=checkbox name=c1 checked&gt; </p>
+  <p>&lt;input type=checkbox name=c2&gt; </p>
+  <p>&lt;input type=checkbox name=c3&gt; </p>
+  <li>Botón de opción:</li>
+  <p>type=radio </p>
+  <p>name</p>
+  <p> value</p>
+  <p> checked </p>
+  <p>&lt;input type=radio name=radio value=uno checked&gt;</p>
+  <p> &lt;input type=radio name=radio value=dos&gt;</p>
+  <p> &lt;input type=radio name=radio value=tres&gt; </p>
+  <li>Menú:</li>
+  <p>SELECT: </p>
+  <p>– name </p>
+  <p>– size </p>
+  <p>– multiple </p>
+  <p>OPTION: </p>
+  <p>– value </p>
+  <p>– selected </p>
+  <li>Código de un menú:</li>
+  <p>&lt;select name=menu&gt; </p>
+  <blockquote>
+    <p>&lt;option value=uno&gt;uno&lt;/option&gt; </p>
+  </blockquote>
+  <blockquote>
+    <p>&lt;option value=dos&gt;dos&lt;/option&gt; </p>
+  </blockquote>
+  <blockquote>
+    <p>&lt;option value=tres selected&gt;tres&lt;/option&gt;</p>
+  </blockquote>
+  <blockquote>
+    <p> &lt;option value=cuatro&gt;cuatro&lt;/option&gt;</p>
+  </blockquote>
+  <p> &lt;/select&gt; </p>
+  <p>&lt;select name=menum size=3 multiple&gt; </p>
+  <blockquote>
+    <p>&lt;option selected value=uno&gt;uno&lt;/option&gt; </p>
+  </blockquote>
+  <blockquote>
+    <p>&lt;option value=dos&gt;dos&lt;/option&gt;</p>
+  </blockquote>
+  <blockquote>
+    <p> &lt;option value=tres&gt;tres&lt;/option&gt;</p>
+  </blockquote>
+  <blockquote>
+    <p> &lt;option selected value=cuatro&gt;cuatro&lt;/option&gt;</p>
+  </blockquote>
+  <blockquote>
+    <p> &lt;option value=cinco&gt;cinco&lt;/option&gt; </p>
+  </blockquote>
+  <p>&lt;/select&gt; </p>
+  <li>Ejemplo de un menú:</li>
+  <select name=menu>
+    <option value=uno>uno</option>
+    <option value=dos>dos</option>
+    <option value=tres selected>tres</option>
+    <option value=cuatro>cuatro</option>
+  </select>
+  <select name=menum size=3 multiple>
+    <option selected value=uno>uno</option>
+    <option value=dos>dos</option>
+    <option value=tres>tres</option>
+    <option selected value=cuatro>cuatro</option>
+    <option value=cinco>cinco</option>
+  </select>
+</div>
+<div class="contenedor">
+  <h3 id="multimedia">9- Multimedia:</h3>
+  <li>Plugins:</li>
+  <p>– src </p>
+  <p>– type </p>
+  <p>– parámetro_del_pluing</p>
+  <p>&lt;embed src=juego.swf quality=high&gt;</p>
+  <li>Marcos:</li>
+  <p><strong>IFRAME:</strong></p>
+  <p> – src </p>
+  <p>– srcdoc </p>
+  <p>– sandbox </p>
+  <p>– allowfullscreen </p>
+  <p>– width </p>
+  <p>– height</p>
+  <p>&nbsp;</p>
+  <p> &lt;iframe src=miframe.html&gt;&lt;/iframe&gt;</p>
+  <p>&nbsp;</p>
+  <p>&lt;iframe srcdoc="&lt;p&gt;Hola&lt;/p&gt;"&gt; </p>
+  <p>&lt;/iframe&gt; </p>
+  <li>Audio:</li>
+  <p>– src </p>
+  <p>– width </p>
+  <p>– height</p>
+  <p>&nbsp;</p>
+  <p> &lt;audio src=musica.mp3&gt;</p>
+  <p> El navegador no soporta audio </p>
+  <p>&lt;/audio&gt;</p>
+  <p>&nbsp;</p>
+  <p> – controls </p>
+  <p>– autoplay </p>
+  <p>– muted </p>
+  <p>– loop </p>
+  <p>– preload</p>
+  <li>Video:</li>
+  <p><strong>SOURCE: </strong></p>
+  <p>– src </p>
+  <p>– type </p>
+  <p><br>
+  </p>
+  <p>&lt;video controls&gt; </p>
+  <p>&lt;source src=video.mp4 type="video/mp4"&gt;</p>
+  <p> &lt;source src=video.ogv type='"video/ogg"; codecs="theora, vorbis"'&gt;</p>
+  <p> El navegador no soporta video </p>
+  <p>&lt;/video&gt; </p>
+  <p><strong>Rango de reproducción:</strong></p>
+  <p> #t=[inicio][,fin]</p>
+  <p> en segundos o horas:minutos:segundos </p>
+</div>
+</body>
+</html>
